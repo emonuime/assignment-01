@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.navBar{
+    height: 100px;
+    width: 100%;
+
+}
+
+.containerWidth{
+    max-width: 1360px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    height: 100%;
+    align-items: center;
+
+}
+
+
+.logoBox h1{
+    font-size: 34px;
+    font-family: poppins;
+    color: #4E47FF;
+}
+
+.btnBox button{
+    padding: 10px 25px 10px 25px;
+    border: none;
+    outline: none;
+    background: #4E47FF;
+    color: white;
+    font-family: poppins;
+    font-weight: 400;
+    border-radius: 10px;
+    font-size: 13px;
+}
