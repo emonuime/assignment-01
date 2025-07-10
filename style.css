@@ -3,13 +3,12 @@
     padding: 0;
 }
 
-
+/*Navigation Design*/
 .navBar{
     height: 100px;
     width: 100%;
 
 }
-
 .containerWidth{
     max-width: 1360px;
     margin: auto;
@@ -37,4 +36,37 @@
     font-weight: 400;
     border-radius: 10px;
     font-size: 13px;
+}
+/* END */
+
+
+.bannerSection{
+    height: 100vh;
+    background: url("Assets/Hero-bg.png");
+    background-size: cover;
+    background-position: center center;
+    width: 100%;
+    margin-top: -100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bannerWidth{
+    width: 1360px;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.heroText{
+    font-size: 60px;
+    font-family: poppins;
+    text-align: center;
+}
+
+.heroBtnBox{
+    margin-top: 20px;
 }
