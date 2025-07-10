@@ -1,6 +1,11 @@
 *{
     margin: 0;
     padding: 0;
+    font-family: poppins;
+}
+
+body{
+    background: #F4F7FF;
 }
 
 /*Navigation Design*/
@@ -40,6 +45,7 @@
 /* END */
 
 
+/*Banner Design*/
 .bannerSection{
     height: 100vh;
     background: url("Assets/Hero-bg.png");
@@ -70,3 +76,49 @@
 .heroBtnBox{
     margin-top: 20px;
 }
+
+/* END */
+
+
+/* Action Section design */
+
+.actionSection{
+    height: 50vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.actionSectionWidth{
+    width: 1360px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.textBox h1{
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+.textBox p{
+    font-size: 15px;
+    color: gray;
+    margin-bottom: 10px;
+}
+.textBox button{
+    padding: 10px 35px 10px 35px;
+    border: none;
+    border-radius: 10px;
+    background: #4E47FF;
+    color: white;
+    font-size: 13x;
+}
+
+
+.imgBox img{
+    border-radius: 40px;
+}
+
+/* END */
