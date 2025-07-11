@@ -280,12 +280,13 @@ body{
      font-weight: 500;
 }
 
+/*END*/
 
 
 
 
 
-
+/*Bottom WC Section */
 .wcSection{
     height: 100vh;
     width: 100%;
@@ -331,6 +332,88 @@ body{
     margin-top: 30px;
 }
 
+/*END*/
 
 
 
+
+/*News Letter*/
+
+.newsLetter{
+    height: 90vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.newsWidth{
+    width: 1360px;
+    height: 70vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.formBox{
+    height: 400px;
+    width: 400px;
+}
+
+.formStart{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.labIn{
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+}
+
+.bigHeading{
+    font-size: 65px;
+}
+
+
+
+.formStart input{
+    padding: 10px 10px 10px 10px;
+    width: 400px;
+    border: 1px solid rgb(180, 179, 179);
+    border-radius: 7px;
+}
+
+.formStart textarea{
+    height: 100px;
+    width: 400px;
+     border: 1px solid rgb(180, 179, 179);
+    border-radius: 7px;
+    padding: 10px;
+
+}
+
+
+.formStart input[type="submit"]{
+    background:#4E47FF;
+    color: white;
+    margin-top: 20px;
+    width: 420px;
+    cursor: pointer;
+    transition: .5s;
+}
+
+
+.formStart input[type="submit"]:hover{
+    background:white;
+    color:#4E47FF;
+    margin-top: 20px;
+    width: 420px;
+    cursor: pointer;
+}
+
+
+/*END*/
