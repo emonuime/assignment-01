@@ -217,6 +217,7 @@ body{
 
 .rHeading{
     font-size: 45px;
+
 }
 
 .rsWidth{
@@ -278,3 +279,58 @@ body{
      color: rgb(174, 171, 171);
      font-weight: 500;
 }
+
+
+
+
+
+
+
+.wcSection{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.wcWidth{
+    width: 1360px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background: white;
+    border-radius: 30px;
+    padding-top: 60px;
+}
+
+
+
+.wcButton button{
+    margin-top: 20px;
+    padding: 10px 30px 10px 30px;
+    background:#4E47FF;
+    border: none;
+    border-radius: 10px;
+    color: white;
+}
+
+.wcImage{
+    width: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 70px
+
+}
+
+.wcImage img{
+    width: 80%;
+    border-radius: 50px;
+    margin-top: 30px;
+}
+
+
+
+
