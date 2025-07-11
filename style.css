@@ -45,6 +45,17 @@ body{
 /* END */
 
 
+
+
+
+
+
+
+
+
+
+
+
 /*Banner Design*/
 .bannerSection{
     height: 100vh;
@@ -78,6 +89,20 @@ body{
 }
 
 /* END */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /* Action Section design */
@@ -122,3 +147,56 @@ body{
 }
 
 /* END */
+
+
+
+
+
+
+
+/*Producttive Section */
+
+.productiveUserSection{
+    height: 60vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.pusWidth{
+    height: 350px;
+    width: 1360px;
+    background: rgb(211, 211, 251);
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 20px 50px 20px;
+}
+
+
+.numBox{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    margin-top: 30px;
+}
+
+.pusWidth h1{
+    font-size: 80px;
+    color: #4E47FF;
+}
+
+.pusWidth h2{
+    font-size: 45px;
+
+}
+.numBox p{
+    text-align: center;
+    margin-top: -20px;
+}
+/* END*/
