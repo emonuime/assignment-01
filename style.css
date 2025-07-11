@@ -417,3 +417,53 @@ body{
 
 
 /*END*/
+
+
+
+
+
+/*Footer Section*/
+
+.footerSection {
+    height: 45vh;
+    width: 100%;
+    background: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logoBoxF h1{
+    font-size: 65px;
+    color:#4E47FF;
+}
+
+
+.fWidth{
+    height: 45vh;
+    width: 1360px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column
+}
+
+.paraBox{
+    width: 50%;
+}
+.paraBox p{
+    text-align: center;
+    font-size: 14px;
+}
+
+.quickLinks{
+    margin-top: 10px;
+}
+
+.quickLinks a{
+    margin: 10px;
+    text-decoration: none;
+    color: rgb(110, 110, 110);
+}
+
+/*END*/
