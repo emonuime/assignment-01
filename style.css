@@ -41,6 +41,15 @@ body{
     font-weight: 400;
     border-radius: 10px;
     font-size: 13px;
+    transition: .5s;
+    cursor: pointer;
+}
+
+
+.btnBox button:hover{
+    background: white;
+    color:#4E47FF;
+    border: 1px solid  #4E47FF;
 }
 /* END */
 
@@ -139,6 +148,14 @@ body{
     background: #4E47FF;
     color: white;
     font-size: 13x;
+    transition: .5s;
+    cursor: pointer;
+}
+
+.textBox button:hover{
+    background: white;
+    color:#4E47FF;
+    border: 1px solid #4E47FF;
 }
 
 
@@ -315,6 +332,14 @@ body{
     border: none;
     border-radius: 10px;
     color: white;
+    transition: .5s;
+    cursor: pointer;
+}
+
+.wcButton button:hover{
+    background: white;
+    color:#4E47FF;
+    border: 1px solid #4E47FF;
 }
 
 .wcImage{
@@ -464,6 +489,13 @@ body{
     margin: 10px;
     text-decoration: none;
     color: rgb(110, 110, 110);
+    transition: .5s;
+}
+
+
+.quickLinks a:hover{
+    color:#4E47FF;
+    font-weight: bold;
 }
 
 /*END*/
